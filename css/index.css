@@ -235,13 +235,20 @@ header {
 
 /* MAIN */
 .items-container{
+
     width: 80%;
-    margin:40px 10%;
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 
 .sub-item-container{
     width: 200px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .item-image{
     width: 100%;
@@ -250,6 +257,7 @@ header {
 .rating{
     font-size: small;
     font-weight: 700;
+    margin-left: 10px;
 }
 .company-name{
     font-size: 15px;
@@ -309,4 +317,29 @@ margin-top: 7px;
     background-color: rgb(228, 153, 13);
     transition: 1s;
     
+}
+
+.bag-item-count{
+ 
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;   
+}
+
+.action_container {
+    text-decoration: none;
+}
+a.action_container:link {
+    color:black;
 }
