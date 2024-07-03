@@ -233,7 +233,7 @@ header {
 }
 
 
-/* MAIN */
+/* MAIN OF INDEX HTML */
 .items-container{
 
     width: 80%;
@@ -319,6 +319,7 @@ margin-top: 7px;
     
 }
 
+/* FOR BAG ICON AND SHOWS THE NUMBER OF ITEM ADDED */
 .bag-item-count{
  
     background-color: #f16565;
