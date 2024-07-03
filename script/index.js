@@ -1,23 +1,38 @@
 let itemContainerElements=document.querySelector(".items-container")
 
+let bagItem
+onLoad();
 
-let bagItem=[];
-displayItemsHomePage();
-
+function onLoad(){
+   let bagItemstr=localStorage.getItem('bagItem')
+   bagItem=bagItemstr? JSON.parse(bagItemstr):[]; 
+   
+   displayItemsHomePage();
+    displayBagIcon();
+    }
 
 
 function addToBag(itemId){
 bagItem.push(itemId);
-disolayBagItem();
+localStorage.setItem('bagItem',JSON.stringify(bagItem))
+displayBagIcon();
 }
-function disolayBagItem(){
+function displayBagIcon(){
 let bagItemCountElement=document.querySelector(".bag-item-count");
-bagItemCountElement.innerText=bagItem.length;
+if(bagItem.length > 0){
+    bagItemCountElement.style.visibility="visible";
+    bagItemCountElement.innerText=bagItem.length;
+}else{
+    bagItemCountElement.style.visibility="hidden";
+    
+}
 }
 
 function displayItemsHomePage(){
     let itemsContainerElement = document.querySelector(".items-container");
-
+if  (!itemsContainerElement) {
+    return;
+}
     let innerHTML="";
     items.forEach(item => {
         innerHTML+=`<div class="sub-item-container">
