@@ -105,7 +105,7 @@ let finalPayment=totalMRP-totalDiscount + CONVINENCE_FEE;
             </div>
             <div class="price-item">
               <span class="price-item-tag">Convenience Fee</span>
-              <span class="price-item-value">₹ 99</span>
+              <span class="price-item-value">₹ ${CONVINENCE_FEE}</span>
             </div>
             <hr>
             <div class="price-footer">
