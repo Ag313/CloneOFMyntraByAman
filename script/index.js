@@ -1,3 +1,6 @@
+// import bag from "../script/bag.js"
+
+
 let itemContainerElements = document.querySelector(".items-container")
 
 let bagItem
