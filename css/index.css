@@ -310,9 +310,10 @@ transition: 1s;
     text-overflow: ellipsis;
     white-space: nowrap;
    margin-top: 0;
-   margin-bottom: 3px;
-    display: block;
+   margin-bottom: 8px;
+    display: flex;
     margin-left: 10px;
+    text-wrap: wrap;
 }
 .price{
     font-size: 15px;
