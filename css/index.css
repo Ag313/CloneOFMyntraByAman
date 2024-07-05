@@ -277,6 +277,18 @@ transition: 1s;
     font-weight: 700;
     margin-left: 10px;
 }
+.company {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 10px;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 20px;
+}
 .company-name{
     font-size: 15px;
     font-weight: 600;

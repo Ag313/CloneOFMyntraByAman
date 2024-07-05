@@ -136,7 +136,7 @@ const items = [
         },
     },
     {
-        id: '010',
+        id: '10',
         image: 'images/10.WEBP',
         company: 'Balaji Enterprices',
         item_name: 'Women Grey Plazo',
@@ -151,7 +151,7 @@ const items = [
         },
     },
     {
-        id: '011',
+        id: '11',
         image: 'images/11.WEBP',
         company: 'SSR Enterprices',
         item_name: 'women trendy pink plazo/suit',
@@ -166,7 +166,7 @@ const items = [
         },
     },
     {
-        id: '012',
+        id: '12',
         image: 'images/12.jpg',
         company: 'Liberty',
         item_name: 'Navy Blue Party Dress',
@@ -181,7 +181,7 @@ const items = [
         },
     },
     {
-        id: '013',
+        id: '13',
         image: 'images/13.WEBP',
         company: 'Riwaaj',
         item_name: 'Women black Popz dress',
@@ -196,7 +196,7 @@ const items = [
         },
     },
     {
-        id: '014',
+        id: '14',
         image: 'images/14.jpg',
         company: 'Awatram Sons',
         item_name: 'Black White Trendy Salwar Suit',
@@ -211,7 +211,7 @@ const items = [
         },
     },
     {
-        id: '015',
+        id: '15',
         image: 'images/15.WEBP',
         company: 'Jaipur Collections',
         item_name: 'Summer Fashion Black Dress',
@@ -226,7 +226,7 @@ const items = [
         },
     },
     {
-        id: '016',
+        id: '16',
         image: 'images/16.jpg',
         company: 'Gupta Collections',
         item_name: 'Brown Jacket With Pent Women',
@@ -241,7 +241,7 @@ const items = [
         },
     },
     {
-        id: '017',
+        id: '17',
         image: 'images/17.jpg',
         company: 'Blackberry',
         item_name: 'Formal Office Wear Black Brown Dress',
@@ -255,7 +255,7 @@ const items = [
             count: 5200,
         },
     },{
-        id: '018',
+        id: '18',
         image: 'images/18.jpg',
         company: 'PUMA',
         item_name: 'Men Fresh Deodrant 150ml',
@@ -270,7 +270,7 @@ const items = [
         },
     },
     {
-        id: '019',
+        id: '19',
         image: 'images/20.jpg',
         company: 'NIKE✔',
         item_name: 'Party Wear Jacket Women',
